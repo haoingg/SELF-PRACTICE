@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML5 학습</title>
+</head>
+<style>
+    div.h01{
+       font-weight:bold;
+       color: #3333cc;
+   }
+   div.h02{
+       font-weight:bold;
+       color: #cc00cc;
+   }
+    header{
+        background-image : linear-gradient(to bottom, pink, white);
+        width : 100%;
+		height : 110px;
+		padding : 50px;
+		margin-bottom : 20px;
+		text-align : center;
+        font-size:20px;
+        text-decoration: none;
+        }
+    .self-introduce {
+        color: #b11e7e;
+        font-weight: bold;
+        }
+    .book {
+        color: #029600;
+        }
+    .place {
+        color: #5a50c3;
+        }
+    .my place {
+        color: #b11e7e;
+        }
+    h1{font-weight:bolder;
+       color: #b11e7e;
+       text-shadow: 2px 2px 2px white;
+        }
+    nav{
+        color : #9900cc;
+        text-decoration: none;
+        }
+    a:hover {
+        font-weight:bolder;
+        word-spacing: 10px;
+        }
+	article {
+	    margin: auto;
+		border : 3px dotted pink;
+		width: 80%;
+		padding : 10px;
+		margin-bottom : 20px;
+		border-radius : 30px;
+	    }
+	.a {
+	text-align:left;
+	}
+    table, th, td {
+        text-align : center;
+        margin : 10px;
+        font-weight : bolder;
+		border : 1px solid lime;
+		border-collapse : collapse;
+	    }
+	th {
+		background-color : lime;
+	    }
+	aside{
+	    margin-bottom : 30px;
+	    text-align : center;
+	    }
+	footer{
+	    text-align : center;
+	    color : white;
+	    padding : 15px;
+	    background-color : black;
+	    }
+	figure{
+	    text-align : center;
+	    }
+</style>
+<body>
+<header>
+<h1>HTML5 학습</h1>
+<nav><a href="http://www.w3.org/" style="text-decoration:none">W3C</a>
+     <a href="http://www.w3schools.com/" style="text-decoration:none"> W3C Schools</a>
+     <a href="https://jquery.com/" style="text-decoration:none">jQuery</a>
+</nav>
+</header>
+<article>
+<h2 class="self-introduce">나의 소개</h2>
+<ul>
+    <li>이름: 공 하영</li>
+    <li>별명: 날씨요정</li>
+    <li>관심기술: Python</li>
+    <li>취미: 영화보기</li>
+</ul>
+</article>
+<article>
+<h2 class="book">재미있게 읽은 책</h2>
+<table border="1">
+    <tr><th>제목</th><th>장르</th></tr>
+    <tr><td>달러구트 꿈 백화점</td><td>소설</td></tr>
+    <tr><td>미스함무라비</td><td>소설</td></tr>
+    <tr><td>작은 아씨들</td><td>소설</td></tr>
+</table>
+</article>
+
+<article>
+<h2><div class="h01"
+       style="display : inline-block" >자랑하고싶은
+    <div class = 'h02'
+       style="display : inline-block" >우리동네
+    </div>의 아름다운 곳
+    </div></h2>
+
+<p>자이언티의 노래 가사로 유명한 양화대교와 한강 중간에 위치한 작은 섬, 선유도 공원. 기존 서남부 지역에 수돗물을 공급하던 정수장에서 1999년 '새 서울, 우리 한강' 사업을 통해 지금의 선유도 공원으로 바뀌었다.</p>
+    <!--<span class="substance">기존 서남부 지역에 수돗물을 공급하던 정수장에서 1999년 '새 서울, 우리 한강' 사업을 통해 지금의 선유도 공원으로 바뀌었다.</span></figcaption>-->
+<figure>
+    <img src="../images/seonyoodo.png" width="800"><br>
+    <figucaption>콘크리트 한강 속 섬 '선유도'의 모습</figucaption></figure>
+</article>
+<aside>
+<video width="800" controls>
+    <source src="seon.mp4">
+</video>
+</aside>
+<br>
+<footer>
+    <em>이 문서는 공 하영에 의해 HTML5와 CCCS3 기술을 사용하여 2020년 1월 14일에 작성하였습니다.(ver 1.0)</em>
+</footer>
+</body>
+</html>
